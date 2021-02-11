@@ -4,6 +4,21 @@
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
+body{
+    display:flex;
+    justify-content:center;
+    }
+    #learnBtn{
+        position:fixed;
+        top:25%;
+        padding:10px 20px;
+        border-radius:3px;
+        border:none;
+        outline:none;
+        z-index:1;
+        text-transform: uppercase;
+      
+    }
 .modal{
     position:fixed;
     width:500px;
